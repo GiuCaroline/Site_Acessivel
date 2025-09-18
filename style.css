@@ -1,0 +1,37 @@
+body {
+    background-color: white; /*cor original*/
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.alto-contraste {
+    background-color: black; /*cor em alto contraste*/
+    color: white;
+} 
+
+.alto-contraste a {
+    color: yellow; /*Exemplo de cor de link em alto contraste*/ 
+}
+
+.icone {
+    height: 40px;
+    width: 40px;
+}
+
+.preto-e-branco {
+    filter: grayscale(100%);
+}
+
+
+button{
+    width: 70px;
+    height: 50px;
+}
+
+button img{
+    width: 50px;
+    height: 50px;
+}
+
